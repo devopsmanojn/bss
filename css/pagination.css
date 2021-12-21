@@ -1,0 +1,89 @@
+
+@charset "utf-8";
+.pagination {
+    float: right;
+    margin-right: 20px;
+    padding: 2px;
+}
+.pagination ul {
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+.pagination li {
+    display: inline;
+    list-style-type: none;
+    padding-bottom: 1px;
+}
+.pagination li a, .pagination li a:visited {
+    border: 1px solid #87B552 !important;
+    color: #75AC37;
+    padding: 0 4px;
+    text-decoration: none;
+}
+.pagination li a:hover, .pagination li a:active {
+    background-color: #914472;
+    border: 1px solid #914472 !important;
+    color: #FFFFFF;
+}
+.pagination li a.currentpage {
+    background-color: #75AC37;
+    border-color: #75AC37;
+    color: #FFFFFF !important;
+    cursor: default;
+    font-weight: bold;
+}
+.pagination li a.disablelink, .pagination li a.disablelink:hover {
+    background-color: #FFFFFF;
+    border-color: #929292;
+    color: #929292;
+    cursor: default;
+    font-weight: normal !important;
+}
+.pagination li a.prevnext {
+    font-weight: bold;
+}
+.logo_img {
+    height: 100px;
+    width: 220px;
+}
+#client_div {
+    height: 36px;
+    width: 466px;
+}
+.client_logo {
+    border: 1px solid #CCCCCC;
+    float: right;
+    height: 109px;
+    width: 206px;
+}
+.logo_img {
+    height: 59px;
+    width: 126px;
+}
+.client_name {
+    border-top: 1px solid #CCCCCC;
+    color: #4E870C;
+    font-weight: bold;
+    height: 18px;
+    padding-top: 5px;
+    text-align: center;
+    width: 154px;
+}
+#pagination_div {
+    height: 30px;
+    padding-right: 22px;
+    width: 970px;
+}
+.spacer {
+    float: left;
+    height: 91px;
+    width: 7px;
+}
+.work_div {
+    float: left;
+    height: 285px;
+    padding-right: 20px;
+    width: 173px;
+}
